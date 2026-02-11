@@ -14,6 +14,7 @@ int main(){
     do{
         printf("enter your guess:");
         scanf("%d",&guess);
+        attempts++;
 
         if (guess > number){
            printf("Too high! try again.\n");
